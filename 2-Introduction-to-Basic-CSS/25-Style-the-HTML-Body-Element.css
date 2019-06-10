@@ -1,0 +1,6 @@
+/* Every HTML page has a body element, even if we didn't visual declare one */
+<style>
+  body {
+    background-color:black;
+  }
+</style>
