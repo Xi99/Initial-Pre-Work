@@ -1,0 +1,13 @@
+/* Applying many styles will cause conflicts with others. This showed that our class for the pink text overrode our color of green from the body style. */
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
