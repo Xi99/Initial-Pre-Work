@@ -1,0 +1,13 @@
+/* Best practice to provide another declaration that would be more recognizable to older browsers right before the custom CSS variables. */
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
