@@ -1,0 +1,18 @@
+/* The final way and most powerful way to override a CSS declaration is to add !important to the element's style declaration. This comes in handy for when you add CSS libraries and want to make sure a certain CSS style trumps all. */
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
