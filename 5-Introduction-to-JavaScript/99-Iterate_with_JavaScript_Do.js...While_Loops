@@ -1,0 +1,10 @@
+// The Do....While loop ensures that the first iteration of a loop makes it through before entering into the conditional.
+// Setup
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++
+} while (i < 5);
